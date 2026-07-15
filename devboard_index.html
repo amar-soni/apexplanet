@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DevBoard</title>
+
+    <link rel="stylesheet" href="devboard_style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+    <h1>DevBoard</h1>
+
+    <nav>
+
+        <a href="#tasks">Tasks</a>
+
+        <a href="#contact">Contact</a>
+
+    </nav>
+
+</header>
+
+<section class="hero">
+
+    <h2>Organize Your Daily Work</h2>
+
+    <p>
+
+        A simple task management application created using HTML, CSS and JavaScript.
+
+    </p>
+
+</section>
+
+<section id="tasks">
+
+    <h2>Task Manager</h2>
+
+    <p class="quote">
+
+        "Plan today, achieve tomorrow."
+
+    </p>
+
+    <div class="task-container">
+
+        <input
+        type="text"
+        id="taskInput"
+        placeholder="Enter a new task">
+
+        <select id="priority">
+
+            <option value="High">High Priority</option>
+
+            <option value="Medium">Medium Priority</option>
+
+            <option value="Low">Low Priority</option>
+
+        </select>
+
+        <select id="category">
+
+            <option value="College">College</option>
+
+            <option value="DSA">DSA</option>
+
+            <option value="Web Development">Web Development</option>
+
+            <option value="Personal">Personal</option>
+
+        </select>
+
+        <button id="addTask">
+
+            Add Task
+
+        </button>
+
+    </div>
+
+    <ul id="taskList">
+
+    </ul>
+
+</section>
+
+<section id="contact">
+
+    <h2>Contact Form</h2>
+
+    <form id="contactForm">
+
+        <input
+        type="text"
+        id="name"
+        placeholder="Enter your name">
+
+        <input
+        type="email"
+        id="email"
+        placeholder="Enter your email">
+
+        <textarea
+        id="message"
+        rows="5"
+        placeholder="Write your message"></textarea>
+
+        <button type="submit">
+
+            Submit
+
+        </button>
+
+    </form>
+
+</section>
+
+<footer>
+
+    <p>
+
+        © 2026 DevBoard | Developed by Amar Soni
+
+    </p>
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
